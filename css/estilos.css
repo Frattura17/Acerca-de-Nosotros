@@ -40,6 +40,7 @@ body {
   .radius { 
     border-radius: 50%;
     width: 185px;
+    height: 169px;
   }
   .font-weight-bold {
     font-weight: bold;
