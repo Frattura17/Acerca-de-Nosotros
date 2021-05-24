@@ -22,6 +22,29 @@ body {
     color: rgb(100, 100, 100);
   }
   
+/*////SUSCRIBIRSE-MODAL////*/
+
+  #BOTON-NAV-modal {
+    width: 7.5rem;
+    min-height: 2rem;
+    margin: 5px 10px 5px 10px;
+    color: white;
+  }
+  #BOTON-NAV-modalcerrar {
+    width: 6rem;
+    min-height: 2rem;
+    margin: 5px 0px 5px 0px;
+    color: white;
+  }
+
+  #BOTON-NAV-modalcerrar:hover {
+    color: rgb(100, 100, 100);
+  }
+
+  #BOTON-NAV-modal:hover{
+    color: rgb(100, 100, 100);
+  }
+  /*////SUSCRIBIRSE-MODAL////*/
   #SUSCRIPCION {
     display: flex;
     text-align: justify;
