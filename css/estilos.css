@@ -30,7 +30,7 @@ body {
     margin: 5px 10px 5px 10px;
     color: white;
   }
-.bg-gray, .bg-gray:hover {
+.bg-gray {
     background-color: white;
 }
   #BOTON-NAV-modalcerrar {
@@ -41,7 +41,7 @@ body {
   }
 
   #BOTON-NAV-modalcerrar:hover {
-    color: rgb(100, 100, 100);
+    color: rgb(100, 100, 100) !important;
   }
 
   #BOTON-NAV-modal:hover{
