@@ -88,59 +88,61 @@
             aria-labelledby="exampleModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog">
-              <div class="modal-content bg-dark text-light border-dark">
-                <div class="modal-header d-flex justify-content-center">
-                  <h5 class="modal-title" id="exampleModalLabel">
-                    ¡Suscríbete a CINEASTA!
-                  </h5>
-                </div>
-                <div class="modal-body">
-                  <form>
-                    <div class="mb-3" id="SUSCRIPCION">
-                      ¡Recibirás una notificación cuando lancemos una nueva review y
-                      serás el primero en enterarte de eventos, concursos, sorteos y
-                      mucho más!
-                    </div>
-      
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label"
-                        >Ingresa tu email</label
-                      >
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="exampleInputEmail1"
-                        aria-describedby="emailHelp"
-                        placeholder="email@ejemplo.com.ar"
-                      />
-                      <div id="emailHelp" class="form-text">
-                        No te preocupes, no compartiremos tu email con nadie.
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    id="BOTON-NAV"
-                    type="button"
-                    class="btn btn-outline-light"
-                    data-bs-dismiss="modal"
-                  >
-                    Cerrar
-                  </button>
-      
-                  <a
-                    id="BOTON-NAV"
-                    class="btn btn-outline-light"
-                    aria-current="page"
-                    href="/pages/error404.html"
-                    >Suscribirme</a
-                  >
+              <!--------- SUSCRIBIRSE-MODAL ----------->
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark text-light border-dark">
+          <div class="modal-header d-flex justify-content-center">
+            <h5 class="modal-title" id="exampleModalLabel">
+              ¡Suscríbete a CINEASTA!
+            </h5>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3" id="SUSCRIPCION">
+                ¡Recibirás una notificación cuando lancemos una nueva review y
+                serás el primero en enterarte de eventos, concursos, sorteos y
+                mucho más!
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Ingresa tu email</label
+                >
+                <input
+                  type="email"
+                  class="form-control bg-gray btn-danger border-0 text-dark"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="email@ejemplo.com.ar"
+                />
+                <div id="emailHelp" class="form-text">
+                  No te preocupes, no compartiremos tu email con nadie.
                 </div>
               </div>
-            </div>
+            </form>
           </div>
+          <div class="modal-footer">
+            <button
+              id="BOTON-NAV-modalcerrar"
+              type="button"
+              class="btn btn-outline-light"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+
+            <a
+              id="BOTON-NAV-modal"
+              class="btn btn-outline-light"
+              aria-current="page"
+              href="/pages/error404.html"
+              >Suscribirme</a
+            >
+          </div>
+        </div>
+      </div>
+               <!-----------SUSCRIBIRSE-MODAL------------->
+     </div>
            <!--------- NAV BAR --------->
                   <!------------->  
     <main>
