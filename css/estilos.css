@@ -30,6 +30,9 @@ body {
     margin: 5px 10px 5px 10px;
     color: white;
   }
+.bg-gray {
+    background-color: white;
+}
   #BOTON-NAV-modalcerrar {
     width: 6rem;
     min-height: 2rem;
